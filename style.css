@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kavivanar", cursive;
+}
+.dotted-border {
+  border: 3px dashed black;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  font-weight: bold;
+}
+
+.card {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 25%;
+  padding: 1.5%;
+}
+.card-infos {
+  background-color: #d9d9d9;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-title {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.card-image {
+  background-color: #d9d9d9;
+  padding: 2%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-desc-bg {
+  background-image: linear-gradient(
+    to right,
+    #0015ff,
+    #0084a8,
+    #000000,
+    #0015ff,
+    #0015ff,
+    #000000,
+    #0084a8,
+    #0015ff
+  );
+  padding: 2.5%;
+  margin: 1.5%;
+}
+
+.card-desc {
+  background-color: #d9d9d9;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 2.5%;
+}
+
+.card-desc-spells {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.spells {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5%;
+  margin: 0.5%;
+  font-weight: bold;
+}
